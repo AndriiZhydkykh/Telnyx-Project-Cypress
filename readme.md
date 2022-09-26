@@ -11,5 +11,5 @@
 3. For run test in nest hub max viewport in UI mode :npm run cypress:open:hub
 4. For run test in nest hub max viewport in headless mode :npm run cypress:run:hub
 
-# For tester
+## For tester
 The 'X' in the command name on the page is xpath

@@ -18,10 +18,10 @@ class VideoRoomPortalPage{
         Page.clickX(createVideoRoom);
     }
     clickRenameVideoRoomIcon(){
-        Page.clickX(renameVideoRoomIcon);
+        Page.clickXForceTrue(renameVideoRoomIcon);
     }
     clickDeleteVideoRoomIcon(){
-        Page.clickX(deleteVideoRoomIcon);
+        Page.clickXForceTrue(deleteVideoRoomIcon);
     }
     clickConfirmDeleteRoomButton(){
         Page.clickXForceTrue(confirmDeleteRoomButton);

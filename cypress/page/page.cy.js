@@ -12,11 +12,9 @@ class Page {
       return this.getElementX(element).should('be.visible');
    }
    click(element) {
-      this.isElementVisible(element)
       this.getElement(element).click();
     }
     clickX(element) {
-      this.isElementXVisible(element);
       this.getElementX(element).click();
     }
     clickForceTrue(element){//for fix click

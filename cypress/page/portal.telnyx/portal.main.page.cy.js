@@ -19,7 +19,7 @@ class MainPortalPage{
         Page.clickForceTrue(pricingButtonInDropDown);
     }
     clickVideoRoomButton(){
-        Page.clickX(videoRoomButton);
+        Page.clickXForceTrue(videoRoomButton);
     } 
 }
 require('cypress-xpath')

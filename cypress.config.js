@@ -5,8 +5,9 @@ module.exports = defineConfig({
     defaultCommandTimeout:30000,
     viewportHeight:1080,
     viewportWidth:1920,
-    setupNodeEvents(on, config) {
-      // implement node event listeners here
-    },
-  },
+    retries: {
+      runMode: 3,
+      openMode: 3
+    }
+  }
 });

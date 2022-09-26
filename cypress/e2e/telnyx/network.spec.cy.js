@@ -2,9 +2,7 @@ import MainPage from '../../page/telnyx/main.page.cy'
 import NetworkPage from '../../page/telnyx/network.page.cy'
 import PricingPage from '../../page/telnyx/pricing.page.cy'
 const networkingTitle='//h1//span[text()="Networking pricing"]'
-
 import Expect from'../../helper/expect.cy'
-const page=Cypress.env('URLS')
 describe('Network page testing', () => {
     beforeEach(() => {
     cy.visit('/')
